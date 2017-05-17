@@ -23,7 +23,7 @@ var appEnv = cfenv.getAppEnv();
 
 // print a welcome message
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Bonjour le monde!');
 });
 
 // start server on the specified port and binding host
